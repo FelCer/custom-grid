@@ -1,0 +1,58 @@
+.grid__1,
+.grid__2,
+.grid__3,
+.grid__4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.grid__2 > div:nth-child(1) {
+    order: 2;
+}
+
+.grid__2 > div:nth-child(2) {
+    order: 1;
+}
+
+.grid__2 > div:nth-child(3) {
+    order: 3;
+}
+
+.grid__3 > div:nth-child(1) {
+    order: 3;
+}
+
+.grid__3 > div:nth-child(2) {
+    order: 2;
+}
+
+.grid__3 > div:nth-child(3) {
+    order: 1;
+}
+
+.grid__4 > div:nth-child(1) {
+    order: 1;
+}
+
+.grid__4 > div:nth-child(2) {
+    order: 3;
+}
+
+.grid__4 > div:nth-child(3) {
+    order: 2;
+}
+
+.grid__big {
+    display: flex;
+    height: auto;
+    margin: 12px;
+    width: 42%;
+}
+
+.grid__small {
+    height: auto;
+    margin: 11;
+    width: 25%;
+}
